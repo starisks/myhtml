@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cubing Hub</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>Cubing Hub</h1>
+  </header>
+
+  <div class="tabs">
+    <button onclick="setTab('timer')">Timer</button>
+    <button onclick="setTab('algorithms')">Algorithms</button>
+    <button onclick="setTab('blogs')">Blogs</button>
+    <button onclick="setTab('leaderboard')">Leaderboard</button>
+  </div>
+
+  <main id="app"></main>
+
+  <script src="lib/storage.js"></script>
+  <script src="components/timer.js"></script>
+  <script src="components/algorithms.js"></script>
+  <script src="components/blogs.js"></script>
+  <script src="components/leaderboard.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
