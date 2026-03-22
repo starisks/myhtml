@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+
+<h1>Admin Panel</h1>
+<div id="users"></div>
+
+<script>
+async function loadUsers() {
+  const res = await fetch("/api/admin/users.php");
+  
+  if (res.status === 403) {
+    document.body.innerHTML = "<h2>Forbidden</h2>";
+    return;
+  }
+
+  const users = await res.json();
+
+  document.getElementById("users").innerHTML =
+    users.map(u => `<div>${u.username} (${u.role})</div>`).join("");
+}
+
+loadUsers();
+</script>
+
+</body>
+</html>
