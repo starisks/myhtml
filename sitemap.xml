@@ -2,28 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>project-6wl8z.vercel.app/</loc>
-    <priority>1.0</priority>
+    <loc>https://yourdomain.com/</loc>
   </url>
 
   <url>
-    <loc>https://project-6wl8z.vercel.app/admin</loc>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://project-6wl8z.vercel.app/blog</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://project-6wl8z.vercel.app/leaderboard</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://project-6wl8z.vercel.app/algorithms</loc>
-    <priority>0.7</priority>
+    <loc>https://yourdomain.com/admin/</loc>
   </url>
 
 </urlset>
